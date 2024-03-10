@@ -8,6 +8,33 @@ class Leon extends Animal {
 
 console.log({ Leon })
 
+class Lobo extends Animal{
+    constructor(){
+        super()
+    }
+}
+console.log({Lobo})
+
+class Aguila extends Animal{
+    constructor(){
+        super()
+    }
+}
+console.log({Aguila})
+
+class Serpiente extends Animal{
+    constructor(){
+        super()
+    }
+}
+console.log({Serpiente})
+
+class Oso extends Animal{
+    constructor(){
+        super()
+    }
+}
+console.log({Oso})
 
 //FUNCION IIFE
 const animales = (() => {
@@ -22,7 +49,7 @@ const animales = (() => {
 })();
 
 const datos = await animales.getData()
-
+//IMPRIME
 console.log(await animales.getData())
 console.log(animales.getData)
 console.log(datos)
@@ -47,10 +74,11 @@ selectAnimal.addEventListener('change', () => {
     const image = `<img src="assets/imgs/${animalEncontrado.imagen}" width="200px" >`
     contenedorImagen.innerHTML= image;
 
-    btnRegistrar.addEventListener('click', () =>{
-    console.log(animalEncontrado.sonido);
-
-        tabla.innerHTML= `${image}${audio.setAttribute("src",`"assets/sounds/${animalEncontrado.sonido}"`)}`
+    // AL ACCIONAR EL BOTON REGISTRAR SE MUESTRA UN REPRODUCTOR CON EL SONIDO
+    btnRegistrar.addEventListener('click', () => {
+        console.log(animalEncontrado.sonido);
+    
+        tabla.innerHTML = `${image}<audio src="assets/sounds/${animalEncontrado.sonido}" controls></audio>`;
     });
 
 
