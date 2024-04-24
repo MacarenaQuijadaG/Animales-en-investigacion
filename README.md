@@ -6,8 +6,8 @@ En Australia se están realizando investigaciones con algunos animales salvajes 
 utilizando el paradigma POO para la creación de las instancias que representen los diferentes animales con sus atributos y métodos.
 
 ## Visuales 
+![2](https://github.com/MacarenaQuijadaG/Animales-en-investigacion/assets/50925916/844c6558-d5ab-484a-985b-4ddd0ff19cff)
 
-![2](https://github.com/MacarenaQuijadaG/Datos-Usuarios/assets/50925916/ed59631a-92e7-4543-927b-ec5e89868921)
 
 
 ## Empezando 🚀
