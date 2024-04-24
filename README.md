@@ -1,4 +1,4 @@
-# Animales Salvajess
+# Animales Salvajes
 
 ## Descripción
 
